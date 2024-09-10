@@ -1,4 +1,4 @@
-import self from "../img/self.png"
+import self from "../img/aashiq.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -27,12 +27,12 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "AASHIQ",
+    lastName: " ",
+    initials: "▵", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Engineer ~ Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    // gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
@@ -41,15 +41,15 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in India'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "aspiring devops engineer"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "aashiqconnects@gmail.com"
         }
     ],
     socials: [
@@ -82,11 +82,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Aashiq. I'm a passionate DevOps Engineer. I studied CompSci at R P Sarathy Institute of Technology, I enjoy to surf on social media, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['Jenkins','BASH Script' , 'Maven', 'git', 'github', 'AWS', 'Docker', 'Kubernetes', 'Terraform' , 'Ansible' , ' JIRA', 'SonarQube' , 'Trivy'],
+            exposedTo: ['AWS', 'CI/CD', 'Containerization', 'Orchestration' ,'SCM' ,'IAC', 'Scripting']
         }
     ,
     hobbies: [
